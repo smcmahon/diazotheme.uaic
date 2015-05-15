@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="diazotheme.uaic">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="UAIC"
+      directory="profiles/default"
+      description='Extension profile for the Diazo-based "UAIC" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="diazotheme.uaic.various"
+      title="UAIC: miscellaneous import steps"
+      description="Various import steps that are not handled by GS import/export handlers."
+      handler="diazotheme.uaic.setuphandlers.setupVarious">
+    <depends name="skins"/>
+  </genericsetup:importStep>
+
+</configure>

@@ -1,0 +1,13 @@
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  color: #900;
+  border: none;
+}
+h1, h2 {
+  font-variant: small-caps;
+}
+
+/* </dtml-with> */

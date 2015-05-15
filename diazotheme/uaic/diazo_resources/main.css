@@ -1,0 +1,283 @@
+body {
+  background-color: #FFFFEE;
+}
+
+#visual-portal-wrapper {
+    margin: 12px auto 12px auto;
+    padding: 0;
+    border: 2px solid black;
+    width: 840px;
+    background: url(hpbg.gif) repeat-y;
+}
+#lnav {
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    vertical-align:top;
+}
+#pb {
+    margin: 0;
+    padding: 0;
+    width: 670px;
+    height: 293px;
+    background: url(featured-photo.jpg) no-repeat 10px 4px;
+}
+#pbi {
+    width: 100%;
+    height: 293px;
+    width: 650px;
+    margin: 0;
+    padding: 0;
+    background: url(logo-bar.gif) no-repeat bottom right;
+}
+#rslot {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    width: 150px;
+    float: right;
+    color: #fff;
+    font-size: 69%;
+}
+#rslot .visualPadding {
+    margin-left:20px;
+}
+#centerright {
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    vertical-align:top;
+}
+#rnav {
+ margin-top: 20px;
+}
+#tagline {
+    margin: 0;
+    padding: 4px 25px 0 0;
+    float: right;
+}
+#llnavcell {
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    vertical-align: top;
+}
+#llnavcell-inset {
+  margin: 0;
+  padding: 0;
+  width: 140px;
+}
+#portlet-navigation-tree {
+    padding: 20px 0px 20px 10px;
+}
+#content {
+    padding-bottom: 6em !important;
+    background: url(tribal-logo.svg) no-repeat center bottom;
+}
+.documentActions {
+    display:none;
+}
+#cbody {
+    padding: 20px 10px 60px 10px;
+}
+#portal-column-content {
+    width: 500px; padding:0 0.25em;
+}
+#lrcell {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    width: 170px;
+    vertical-align: bottom;
+}
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}
+
+#searchform input#searchGadget {
+  border: none;
+  padding: 4px 0 0 4px;
+  background: url(sback.gif) no-repeat;
+}
+
+#searchform input#search-button {
+  margin-top: 2px;
+  border: none;
+  background: transparent !important;
+}
+
+#portlet-navigation-tree dd {
+  margin: 0;
+  padding: 0;
+}
+#portlet-navigation-tree dt.portletHeader {
+  display: none;
+}
+ul.portletNavigationTree, ul.navTree {
+  list-style-image: none;
+  list-style-type: none;
+}
+li.navTreeItem {
+  margin-bottom: 0.75em;
+  line-height: 1.25em;
+  text-align: right;
+}
+li.navTreeItem a {
+  color: #fff;
+  text-decoration: none;
+}
+a.link-parent {
+  display: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  color: #900;
+  border: none;
+}
+h1, h2 {
+  font-variant: small-caps;
+}
+
+.portlet {
+background-color:transparent;
+border-bottom:none;
+margin:0;
+}
+dl.portlet a:link {color:#fff;}
+.portletItem {
+border-left:none;
+border-right:none;
+margin:0;
+padding:1em;
+}
+#rslot .portletItem {
+    padding:0;
+}
+.portletHeader, .managedPortlet .portletHeader {
+display:none;
+}
+.navTreeItem a, dd.portletItem .navTreeItem a {
+border:1px solid transparent;
+}
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+    border-bottom: none;
+}
+dl.portlet ul.navTree .navTreeCurrentItem {
+    background-color: transparent;
+    border-left: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+.navTreeItem a:hover, dd.portletItem .navTreeItem a:hover, .navTreeCurrentItem {
+color:#990 !important;
+background-color:transparent !important;
+}
+dl.portlet a:visited, .portletFooter a:visited {
+color:#ccc;
+}
+.navTreeLevel0 {
+    text-transform:uppercase;
+}
+.navTreeLevel1 {
+    text-transform:none;
+}
+.navTreeLevel1 li.navTreeItem {
+line-height:1em;
+margin-bottom:0.25em;
+text-align:right;
+}
+
+.documentFirstHeading {
+    display:none;
+}
+
+.portletFooter {
+background-color:transparent;
+border: none;
+}
+.portletSearch .portletFooter {
+display: none;
+}
+
+
+.LSBox {
+text-align:left;
+white-space:normal;
+}
+input.searchButton {
+background:none repeat scroll 0 0 transparent;
+border:medium none;
+color:#FFFFFF;
+cursor:pointer;
+margin-bottom:1px !important;
+padding:0;
+text-transform:uppercase;
+}
+input.searchField {
+background:url(sback.gif) no-repeat white;
+border:none;
+}
+.portletStaticText a {
+    color: #fff !important;
+    text-decoration:none;
+}
+
+.tileItem {
+    border-top: 1px solid #990000;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+}
+.tileHeadline {
+    font-size: 110%;
+    font-weight: bold;
+}
+.tileHeadline a {
+    color: #000 !important;
+}
+#content img.tileImage {
+    border: 1px solid black;
+    float: right;
+    margin: 0 0 0 0.5em;
+}
+
+.section-about #visual-portal-wrapper {
+    background: url(about/hpbg.gif) repeat-y;
+}
+.section-about #pb {
+    background: url(about/featured-photo.jpg) no-repeat 10px 4px;
+}
+.section-programs #visual-portal-wrapper {
+    background: url(programs/hpbg.gif) repeat-y;
+}
+.section-programs #pb {
+    background: url(programs/featured-photo.jpg) no-repeat 10px 4px;
+}
+.section-links #visual-portal-wrapper {
+    background: url(links/hpbg.gif) repeat-y;
+}
+.section-links #pb {
+    background: url(links/featured-photo.jpg) no-repeat 10px 4px;
+}
+.section-gallery #visual-portal-wrapper {
+    background: url(gallery/hpbg.gif) repeat-y;
+}
+.section-gallery #pb {
+    background: url(gallery/featured-photo.jpg) no-repeat 10px 4px;
+}
+.section-contact #visual-portal-wrapper {
+    background: url(contact/hpbg.gif) repeat-y;
+}
+.section-contact #pb {
+    background: url(contact/featured-photo.jpg) no-repeat 10px 4px;
+}
+.section-news #visual-portal-wrapper {
+    background: url(news/hpbg.gif) repeat-y;
+}
+.section-news #pb {
+    background: url(news/featured-photo.jpg) no-repeat 10px 4px;
+}
